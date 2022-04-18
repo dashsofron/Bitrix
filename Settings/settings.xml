@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settingsInfo>
+	<settingsNum>1</settingsNum>
+	<settingsList>
+		<exchangeSetting>
+			<name>example1</name>
+			<schedule>
+				<periodStartDate>27.03.2022</periodStartDate>
+				<periodEndDate>27.06.2022</periodEndDate>
+				<periodDaysRepeate>7</periodDaysRepeate>
+				<monthSchedule>
+					<monthList>
+						<month>Апрель</month>
+						<month>Июль</month>
+					</monthList>
+					<monthDay>4</monthDay>
+					<monthDayFromBegin>true</monthDayFromBegin>
+					<weekDay>5</weekDay>
+					<weekDayFromBegin>false</weekDayFromBegin>
+				</monthSchedule>
+				<weekSchedule>
+					<weekDayList>
+						<weekDay>понедельник</weekDay>
+						<weekDay>пятница</weekDay>
+					</weekDayList>
+					<periodWeeksRepeate>2</periodWeeksRepeate>
+				</weekSchedule>
+				<dayScheduleList>
+					<daySchedule>
+						<startTime> 7:00:00</startTime>
+						<endTime> 19:00:00</endTime>
+						<finishAfterTime> 10:00:00</finishAfterTime>
+						<repeatAfter>100</repeatAfter>
+						<repeatPause>101</repeatPause>
+						<finishAfter>102</finishAfter>
+					</daySchedule>
+					<daySchedule>
+						<startTime> 7:00:00</startTime>
+						<endTime> 9:00:00</endTime>
+						<repeatAfter>200</repeatAfter>
+						<repeatPause>201</repeatPause>
+						<finishAfter>202</finishAfter>
+					</daySchedule>
+				</dayScheduleList>
+			</schedule>
+			<relevance>10</relevance>
+			<properties>
+				<orderProperties>
+					<settingsList>
+						<setting>
+							<settingType>Организация</settingType>
+							<comparisonType>Равно</comparisonType>
+							<value>Торговый дом "Комплексный"</value>
+						</setting>
+						<setting>
+							<settingType>Подразделение</settingType>
+							<comparisonType>Равно</comparisonType>
+							<value>Подразделение 1</value>
+						</setting>
+					</settingsList>
+				</orderProperties>
+				<paymentProperties>
+					<unloadPayments>true</unloadPayments>
+					<settingsList>
+						<setting>
+							<settingType>Организация</settingType>
+							<comparisonType>Равно</comparisonType>
+							<value>Торговый дом "Комплексный"</value>
+						</setting>
+						<setting>
+							<settingType>Подразделение</settingType>
+							<comparisonType>Равно</comparisonType>
+							<value>Подразделение 1</value>
+						</setting>
+					</settingsList>
+				</paymentProperties>
+				<shipmentProperties>
+					<unloadShipments>true</unloadShipments>
+					<settingsList>
+						<setting>
+							<settingType>Организация</settingType>
+							<comparisonType>Равно</comparisonType>
+							<value>Торговый дом "Комплексный"</value>
+						</setting>
+						<setting>
+							<settingType>Подразделение</settingType>
+							<comparisonType>Равно</comparisonType>
+							<value>Подразделение 1</value>
+						</setting>
+					</settingsList>
+				</shipmentProperties>
+				<merchProperties>
+					<unloadMerch>true</unloadMerch>
+					<unloadPlannedDate>true</unloadPlannedDate>
+					<unloadPropertiesToMerch>true</unloadPropertiesToMerch>
+					<requisuteList>
+						<requisute>
+							<name>Штрихкод</name>
+							<name1C>Штрихкод</name1C>
+						</requisute>
+						<requisute>
+							<name>Описание</name>
+							<name1C>Описание</name1C>
+						</requisute>
+					</requisuteList>
+					<extraRequisuteList>
+						<extraRequisute>
+							<name>Код</name>
+							<name1C>Код</name1C>
+						</extraRequisute>
+						<extraRequisute>
+							<name>Полное наименование</name>
+							<name1C>Полное наименование</name1C>
+						</extraRequisute>
+					</extraRequisuteList>
+				</merchProperties>
+				<offerProperties>
+					<unloadOffers>true</unloadOffers>
+					<unloadOnlyWithRests>true</unloadOnlyWithRests>
+					<unloadOnlyWitPrices>true</unloadOnlyWitPrices>
+					<unloadProperty>true</unloadProperty>
+					<unloadCharacteristic>true</unloadCharacteristic>
+					<unloadPlannedDate>true</unloadPlannedDate>
+					<unloadMerchAsOffer>true</unloadMerchAsOffer>
+				</offerProperties>
+				<properties>
+					<unloadProperties>true</unloadProperties>
+					<customPropertiesList>
+						<customProperty>
+							<name></name>
+							<unloadHL>Материал</unloadHL>
+							<unloadDir>true</unloadDir>
+							<unloadToMerch>true</unloadToMerch>
+							<unloadToOffer>true</unloadToOffer>
+						</customProperty>
+						<customProperty>
+							<name></name>
+							<unloadHL>Дата заказа</unloadHL>
+							<unloadDir>false</unloadDir>
+							<unloadToMerch>false</unloadToMerch>
+							<unloadToOffer>false</unloadToOffer>
+						</customProperty>
+					</customPropertiesList>
+				</properties>
+				<restProperties>
+					<unloadRests>true</unloadRests>
+					<unloadStoresRests>true</unloadStoresRests>
+					<unloadRestsCountReserve>true</unloadRestsCountReserve>
+				</restProperties>
+				<priceProperties>
+					<unloadPrices>true</unloadPrices>
+				</priceProperties>
+			</properties>
+		</exchangeSetting>
+	</settingsList>
+	<storeNum></storeNum>
+</settingsInfo>
